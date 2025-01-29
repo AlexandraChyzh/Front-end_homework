@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Письмо Санте</h1>
+    <p>Дорогой друг, не стесняйся и расскажи Санте о том, кто ты и что хочешь получить на Рождество</p>
+    <form action="">
+        <input placeholder="Введи e-mail" type="email" name="login"><br><br>
+        <input placeholder="Придумай пароль" type="password" name="password"><br><br>
+        <input placeholder="Повтори пароль" type="password" name="password-repeat"><br><br>
+        <input placeholder="Напиши свое имя" type="text" name="name"><br><br>
+    </form>
+    <form action="">
+        <fieldset>
+            <legend>Выбери свой пол</legend>
+            <input type="radio" id="choice_1" name="gender" value="male">
+            <label for="choice_1">Мальчик</label>
+            <input type="radio" id="choice_2" name="gender" value="female">
+            <label for="choice_2">Девочка</label>
+        </fieldset>
+    </form><br><br>
+    <form action="">
+        <label for="start">Выбери дату своего рождения:</label>
+        <input type="date" value="2024-12-01" min="2010-01-01" max="2023-01-01"/>
+    </form><br><br>
+    <form action="">
+        <fieldset>
+            <legend>Какие игрушки ты любишь больше всего? <br>Выбери, пожалуйста, среди предложенных внизу вариантов:</legend><br><br>
+              <input type="checkbox" id="toy-1" name="soft_toy" checked />
+              <label for="toy-1">Мягкая игрушка</label>
+              <input type="checkbox" id="toy-2" name="doll" />
+              <label for="toy-2">Кукла</label>
+              <input type="checkbox" id="toy-3" name="car" />
+              <label for="toy-3">Машинка</label>
+              <input type="checkbox" id="toy-4" name="lego" />
+              <label for="toy-4">Лего-конструктор</label>
+              <input type="checkbox" id="toy-5" name="pasl" />
+              <label for="toy-5">Пазл</label>
+            </div>
+          </fieldset>          
+    </form><br><br>
+
+    <p>Теперь ты можешь выбрать цвет своей новой игрушки:</p>
+
+<form action="">
+  <input type="color" id="color-choise" name="color" value="#e66465" />
+  <label for="color-choise">Нажми на прямоугольник и выбери</label>
+</form><br><br><br><br>
+
+<form action="">
+    <a href="greetings.html"><input type="button" value="Отправить Санте"></a>
+</form>
+    
+</body>
+</html>
