@@ -1,0 +1,32 @@
+main {
+    height: 200vh;
+  }
+  nav{
+    position: sticky;
+    top: 0;
+    background-color: rgb(102,102,102);
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 10px;
+  }
+ 
+  a{
+    color: white;
+    font-size: 150%;
+    margin-left: 80px;
+  }
+  a:hover{
+    font-size: 190%;
+    font-weight: 100;
+    margin-left: 50px;
+    transition: .3s;
+  }
+ 
+  @font-face {
+    font-family: "NarrowNews"; 
+    src: url("./fonts/ClanOT-NarrowNews.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
