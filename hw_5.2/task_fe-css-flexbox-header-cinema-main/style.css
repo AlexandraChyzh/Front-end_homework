@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: rgb(237, 226, 212);
+}
+
+main {
+  width: 400vh;
+}
+
+header {
+  margin: 0;
+  height: 150px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: flex-end;
+}
+
+.banner {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.logo {
+ margin: 0;
+ margin-left: -80px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 40px;
+  opacity: 0.6;
+  margin-bottom: -25px;
+  display: flex;
+  align-items: baseline;
+}
+
+li:last-child {
+  border-bottom: 1px solid white;
+}
+
+button {
+  height: 50px;
+  border-radius: 7px;
+  margin: 20px;
+  width: 300px;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+button:hover {
+  color:rgb(223, 128, 11);
+}
+
+a {
+  color: aliceblue;
+}
+a:hover {
+  color: rgb(223, 128, 11);
+}
+p{
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 25px;  
+}
+.navimg{
+  margin-bottom: -10px;
+  height: 40px;
+}
+.navimg2{
+  height: 30px;
+  margin-bottom: -5px;
+}
+
+
+
+
